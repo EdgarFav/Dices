@@ -1,0 +1,94 @@
+{
+  "test": "Prüfer",
+  "options": {
+    "title": "Einstellungen",
+    "theme": "Themen",
+    "language": "Sprache",
+    "close-tabs": "Schließen"
+  },
+  "home": {
+    "home": "Heim",
+    "selection": "Wählen",
+    "create": "Neuen Datensatz erstellen",
+    "view": "Datensätze anzeigen",
+    "dices": "Würfel",
+    "flip": "Kopf oder Zahl",
+    "eight": "magischer Ball"
+  },
+  "init": {
+    "go-home": "Zur Startseite"
+  },
+  "login": {
+    "login": "Anmeldung",
+    "forgot": "Haben Sie Ihr Passwort vergessen?",
+    "username": "Nutzername",
+    "password": "Passwort"
+  },
+  "register": {
+    "title": "Registrieren"
+  },
+  "catalogs": {
+    "title": "Kataloge",
+    "catalogs": "System",
+    "operation": "Betrieb",
+    "options": "Prozessoptionen",
+    "create": "Erstellen",
+    "create-a": "Generieren ",
+    "edit-a": "Aktualisieren ",
+    "generate": "Das Register wurde erfolgreich erstellt",
+    "updater": "Das Register wurde erfolgreich aktualisiert",
+    "edit": "Bearbeiten",
+    "createt": "Erstellen",
+    "delete": "Löschen"
+  },
+  "menu": {
+    "last-session": "Letzte Sitzung",
+    "of": "von"
+  },
+  "alerts": {
+    "confirm": "Bestätigen",
+    "accept": "Akzeptieren",
+    "wait": "Warten...",
+    "cancel": "Stornieren",
+    "required": "Pflichtfeld",
+    "gud": "Gut!",
+    "embarrassing": "Es ist ein Fehler aufgetreten. Wenden Sie sich an den Administrator",
+    "error": "Hoppla!",
+    "an-error": "Es ist ein Fehler aufgetreten. Versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an einen Administrator"
+  },
+  "crud": {
+    "name": "Name",
+    "description": "Beschreibung",
+    "errors": {
+      "name": "Das Feld „Name“ ist erforderlich",
+      "description": "Das Feld „Beschreibung“ ist erforderlich"
+    }
+  },
+  "list": {
+    "search": "Suche..."
+  },
+  "ball": {
+    "1": "Es ist sicher.",
+    "2": "Es ist entschieden, so.",
+    "3": "Ohne Zweifel.",
+    "4": "Ja auf jeden Fall.",
+    "5": "Darauf können Sie sich verlassen.",
+    "6": "So, wie ich es sehe, ja.",
+    "7": "Höchstwahrscheinlich.",
+    "8": "Ausblick gut.",
+    "9": "Ja.",
+    "10": "Die Zeichen deuten auf ja.",
+    "11": "Antwort verschwommen, versuche es noch einmal",
+    "12": "Frag später noch einmal.",
+    "13": "Erzähl es dir jetzt besser nicht.",
+    "14": "Kann jetzt nicht vorhersagen.",
+    "15": "Konzentrieren Sie sich und fragen Sie noch einmal.",
+    "16": "Verlassen Sie sich nicht darauf.",
+    "17": "Meine Antwort ist nein.",
+    "18": "Meine Quellen sagen Nein.",
+    "19": "Outlook ist nicht so gut.",
+    "20": "Sehr zweifelhaft.",
+    "21": "Du musst dich mehr anstrengen.",
+    "ask": "Stell deine Frage."
+  }
+}

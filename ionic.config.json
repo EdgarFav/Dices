@@ -1,0 +1,7 @@
+{
+  "name": "Dices",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

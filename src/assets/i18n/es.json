@@ -1,0 +1,94 @@
+{
+  "test": "ensayador",
+  "options": {
+    "title": "Ajustes",
+    "theme": "Temas",
+    "language": "Idioma",
+    "close-tabs": "Cerca"
+  },
+  "home": {
+    "home": "Hogar",
+    "selection": "Seleccionar",
+    "create": "Crear nuevo registro",
+    "view": "Ver registros",
+    "dices": "Dado",
+    "flip": "Volado",
+    "eight": "Bola mágica"
+  },
+  "init": {
+    "go-home": "Ir a casa"
+  },
+  "login": {
+    "login": "Acceso",
+    "forgot": "¿Olvidaste tu contraseña?",
+    "username": "Nombre de usuario",
+    "password": "Contraseña"
+  },
+  "register": {
+    "title": "Registro"
+  },
+  "catalogs": {
+    "title": "Catálogos",
+    "catalogs": "Sistema",
+    "operation": "Operación",
+    "options": "Opciones de proceso",
+    "create": "Crear",
+    "create-a": "Generar ",
+    "edit-a": "Actualizar ",
+    "generate": "El registro se ha creado correctamente.",
+    "updater": "El registro se ha actualizado correctamente.",
+    "edit": "Editar",
+    "createt": "Crear",
+    "delete": "Borrar"
+  },
+  "menu": {
+    "last-session": "Última sesión",
+    "of": "de"
+  },
+  "alerts": {
+    "confirm": "Confirmar",
+    "accept": "Aceptar",
+    "wait": "Esperar...",
+    "cancel": "Cancelar",
+    "required": "Campo requerido",
+    "gud": "¡Bien!",
+    "embarrassing": "Algo salió mal, contacta al administrador",
+    "error": "¡Ups!",
+    "an-error": "Ha ocurrido un error, inténtelo nuevamente, si el problema persiste contacte a un administrador"
+  },
+  "crud": {
+    "name": "Nombre",
+    "description": "Descripción",
+    "errors": {
+      "name": "El campo 'Nombre' es obligatorio",
+      "description": "El campo 'Descripción' es obligatorio"
+    }
+  },
+  "list": {
+    "search": "Buscando..."
+  },
+  "ball": {
+    "1": "Es cierto.",
+    "2": "Es decididamente así.",
+    "3": "Sin duda.",
+    "4": "Sí definitivamente.",
+    "5": "Puedes confiar en ello.",
+    "6": "Como yo lo veo, sí.",
+    "7": "Más probable.",
+    "8": "Perspectivas buena.",
+    "9": "Sí.",
+    "10": "Las señales apuntan a que sí.",
+    "11": "Respuesta confusa, intenta otra vez",
+    "12": "Pregunta de nuevo más tarde.",
+    "13": "Mejor no decirte ahora.",
+    "14": "No se puede predecir ahora.",
+    "15": "Concéntrate y pregunta otra vez.",
+    "16": "No cuentes con ello.",
+    "17": "Mi respuesta es no.",
+    "18": "Mis fuentes dicen que no.",
+    "19": "Las perspectivas no son tan buenas.",
+    "20": "Muy dudoso.",
+    "21": "Necesitas esforzarte más.",
+    "ask": "Haz tu pregunta."
+  }
+}

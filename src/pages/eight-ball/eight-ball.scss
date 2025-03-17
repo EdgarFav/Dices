@@ -1,0 +1,110 @@
+.the-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .top-words{
+      font-size: 35px;
+      color: rgb(51, 50, 50);
+      margin: 7px;
+      text-align: center;
+      background-color: #B89FDC;
+      padding: 5px 10px;
+      border-radius: 5px;
+  }
+  .activate-ball{
+    margin: 10px;
+      font-size: 30px;
+     cursor: pointer;
+     background-color: #f7eb4a;
+     padding: 5px;
+     border-radius: 5px;
+     box-shadow: 0px 3px 5px;
+     color: rgb(31, 30, 30);
+     transition: all .2s ease-in-out;
+  }
+  .activate-ball:hover{
+    background-color: #f7eb4a;
+    box-shadow: 0px 6px 8px;
+    
+  }
+  .eight-ball{
+   
+  }
+  .outer-ball{
+      border-radius: 50%;
+      height: max-content;
+      margin: 10px;
+      width: 300px;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: black;
+      background: radial-gradient(circle at 100px 100px, #124b88, #000);
+    }
+    .text-outer-circle{
+        width: 130px;
+        height: 130px;
+        background-color: black;
+        background: radial-gradient(circle at 100px 100px, #0d4581, #000);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .animate-ball{
+      animation: move-eight-ball 3s ease-in-out 1;
+    }
+    .text-circle{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #2633ec;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: sans-serif;
+      color: #fff;
+      
+    }
+    .eight-ball-text{
+        padding: 15px;
+      font-weight: bold;
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .animate-text{
+       animation: text-animation 3s ease-in-out 1;
+    }
+  
+    @keyframes move-eight-ball {
+      0% {
+        transform: none;
+      }
+      50%, 60% {
+        transform: translateX(68px) translateY(-40px) skewX(5deg) skewY(2deg) scaleX(0.95);
+      }
+      100% {
+        transform: none;
+      }
+    }
+    @keyframes text-animation {
+        0% {
+            opacity: 1;
+            
+        }
+        50%, 70% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+    }
+    
+  
+    
+    

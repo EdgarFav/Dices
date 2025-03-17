@@ -1,0 +1,198 @@
+.logo-presentation {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 60px);
+  text-align: center;
+  margin: auto;
+
+  .logo-p {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    img {
+      filter: drop-shadow(2px 4px 1px #123);
+    }
+  }
+
+  .name-app {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 60px);
+
+    p {
+      margin: 0;
+      font-size: 30px;
+    }
+  }
+}
+
+.no-camera {
+  margin-top: 16px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  span {
+    font-size: 40px;
+    color: #fff;
+  }
+
+  div {
+    p {
+      margin: 0;
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+}
+.hand {
+  transform: rotate(45deg);
+  width: 50px;
+  .animate-span {
+    animation: tada 1s infinite;
+    font-size: 40px;
+  }
+}
+
+.img-logo {
+  width: 120px;
+  filter: drop-shadow(0px 0px 1px #fff);
+}
+
+$midnight: #2c3e50;
+$clouds: #ecf0f1;
+.inputs {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.flip-effect-card {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+  margin-top: 10px;
+  height: 200px;
+}
+
+.flip-effect-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.active-back {
+  transform: rotateY(180deg);
+  transition: 800ms;
+  .flip-effect-card-front {
+    z-index: 8;
+    transition: 800ms;
+  }
+}
+
+.active-front {
+  transform: rotateY(0deg);
+  transition: 800ms;
+  .flip-effect-card-front {
+    z-index: 10;
+    transition: 800ms;
+  }
+}
+
+.flip-effect-card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 9;
+  top: 0;
+  transition: 800ms;
+}
+
+.flip-effect-card-front {
+  color: black;
+  width: 100%;
+  height: 100%;
+  //transform: rotateY(180deg);
+}
+
+.flip-effect-card-back {
+  color: white;
+  transform: rotateY(180deg);
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  position: absolute;
+}
+
+.flip-effect-card-front,
+.flip-effect-card-back {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+}
+
+.cuadricula {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  opacity: 0.4;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.tamanio {
+  width: 100%;
+}
+
+.available-cards {
+  position: fixed;
+  bottom: 63px;
+  width: calc(100% - 40px);
+  left: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 5px 20px;
+  justify-content: unset;
+  align-items: center;
+  background-color: black;
+  z-index: 0;
+  p {
+    margin: 0;
+  }
+
+  p:nth-child(2) {
+    text-align: end;
+  }
+}
+
+.cls {
+  // height: calc(100% - 190px) !important;
+}
+
+.not-found {
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    margin-top: -200px;
+    width: 400px;
+  }
+}
